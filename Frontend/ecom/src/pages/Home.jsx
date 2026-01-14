@@ -153,7 +153,7 @@ export default function Home() {
       </div>
 
       <div id="tproducts">
-        <h1 className="text-2xl sm:text-3xl md:text-4xl   font-bold mt-10 mb-5 text-center text-gray-900">Tranding products</h1>
+        <h1 className="text-2xl sm:text-3xl md:text-4xl   font-bold mt-10 mb-5 text-center text-gray-900">Trending products</h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-6 mt-10 mb-5">
         {
           TrandingProducts.map((product, i, a) => {
